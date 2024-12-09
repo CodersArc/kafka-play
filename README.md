@@ -2,7 +2,11 @@
 
 ## Kafka setup using KRaft controller instead of zookeeper
 
+TODO -- add more on how this was put together
+
 ## Add grafana and prometheus for observability
+
+TODO -- add more on how this was put together, dashboards, config, ports, checking targets in prometheus first, which metrics should we be looking at.
 
 ## Simple producer and consumer java gradle projects
 
@@ -15,3 +19,4 @@ curl -X POST "http://localhost:8080/api/send?message=key:this%20is%20a%20test%20
 Consumer is also very simple, it simply prints the message from its listener on the topic called `my-topic-1`.
 
 I will add more details as I go through more advanced concepts. More complex message structures that require defining a schema etc.
+
